@@ -6,7 +6,7 @@ A fake stream for testing network applications backed by buffers.
 
 ```toml
 [dependencies]
-tokio-mockstream = "1.0"
+tokio-mockstream = "1.1"
 ```
 
 Next, add this to your crate:
