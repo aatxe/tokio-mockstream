@@ -1,6 +1,6 @@
 [package]
 name = "tokio-mockstream"
-version = "0.1.0"
+version = "1.0.0"
 description = "A fake stream for testing network applications backed by buffers."
 authors = ["Aaron Weiss <awe@pdgn.co>"]
 license = "MIT/Apache-2.0"

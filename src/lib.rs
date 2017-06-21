@@ -29,10 +29,12 @@ impl MockStream {
         }
     }
 
+    /// Gets a slice of bytes representing the data that has been written.
     pub fn written(&self) -> &[u8] {
         self.written.get_ref()
     }
 
+    /// Gets a slice of bytes representing the data that has been received.
     pub fn received(&self) -> &[u8] {
         self.received.get_ref()
     }
