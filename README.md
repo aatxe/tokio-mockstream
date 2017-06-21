@@ -4,7 +4,20 @@ A fake stream for testing network applications backed by buffers.
 
 # Usage
 
-Coming soon.
+```toml
+[dependencies]
+tokio-mockstream = "1.0"
+```
+
+Next, add this to your crate:
+
+```rust
+extern crate tokio_mockstream;
+
+use tokio_mockstream::MockStream;
+```
+
+The general idea is to treat `MockStream` as you would `TcpStream`. You can find documentation online at [docs.rs](https://docs.rs/tokio-mockstream/).
 
 # License
 
