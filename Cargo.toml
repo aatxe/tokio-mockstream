@@ -9,3 +9,8 @@ repository = "https://github.com/aatxe/tokio-mockstream"
 readme = "README.md"
 
 [dependencies]
+futures = "0.1"
+tokio-io = "0.1"
+
+[dev-dependencies]
+bytes = "0.4"
