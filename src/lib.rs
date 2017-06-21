@@ -10,6 +10,7 @@ use futures::Poll;
 use tokio_io::{AsyncRead, AsyncWrite};
 
 /// A fake stream for testing network applications backed by buffers.
+#[derive(Clone, Debug)]
 pub struct MockStream {
     written: Cursor<Vec<u8>>,
     received: Cursor<Vec<u8>>,
